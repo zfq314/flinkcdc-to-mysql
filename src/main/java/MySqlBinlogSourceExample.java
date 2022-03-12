@@ -1,4 +1,5 @@
 import com.ververica.cdc.connectors.mysql.MySqlSource;
+import flinkcdc2kafka.JsonDebeziumDeserializationSchema;
 import org.apache.flink.streaming.api.environment.StreamExecutionEnvironment;
 import org.apache.flink.streaming.api.functions.source.SourceFunction;
 

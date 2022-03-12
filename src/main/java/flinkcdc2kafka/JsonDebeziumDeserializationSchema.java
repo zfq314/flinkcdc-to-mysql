@@ -1,3 +1,5 @@
+package flinkcdc2kafka;
+
 import com.google.gson.Gson;
 import com.ververica.cdc.debezium.DebeziumDeserializationSchema;
 import io.debezium.data.Envelope;

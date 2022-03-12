@@ -6,7 +6,7 @@ import org.apache.flink.table.api.SqlDialect;
 import org.apache.flink.table.api.bridge.java.StreamTableEnvironment;
 
 public class MysqlToMysqlMain {
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args) {
         StreamExecutionEnvironment executionEnvironment = StreamExecutionEnvironment.getExecutionEnvironment();
         // 每隔1000 ms进行启动一个检查点【设置checkpoint的周期】
         executionEnvironment.enableCheckpointing(3000);

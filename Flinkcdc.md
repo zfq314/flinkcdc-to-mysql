@@ -1,1 +1,0 @@
-# flinkcdc-to-mysql
